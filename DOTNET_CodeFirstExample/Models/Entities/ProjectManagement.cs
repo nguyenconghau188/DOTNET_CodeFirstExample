@@ -8,7 +8,7 @@ namespace DOTNET_CodeFirstExample.Models
 {
     public class ProjectManagement : DbContext
     {
-        public ProjectManagement() : base("name=ProjectMananger")
+        public ProjectManagement() : base("ProjectManager")
         {
 
         }
